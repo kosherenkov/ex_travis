@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "publish": "subpath-as-branch --path dist --branch gh-pages"
   },
   "dependencies": {
     "jquery": "^3.5.1",
@@ -46,6 +47,7 @@
     "sass-loader": "^7.3.1",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
+    "subpath-as-branch": "^1.0.0",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",
