@@ -44,7 +44,7 @@ export default {
       products: [
         {
           title: "CBD 500 mg Orange Flavor Tincture",
-          image: "/static/img/slider_products/slide1.jpg",
+          image: "static/img/slider_products/slide1.jpg",
           price: 44.99
         },
         {
